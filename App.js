@@ -75,16 +75,9 @@ const App: () => Node = () => {
             Anda bisa melihatnya hari ini di status WA saya , saya menggunakan react native dalam pembuatan Aplikasi
             Ini , Selamat Malam 
           </Section>
-          <Section title="Refresh">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
           <Section title="Pelajari Lebih Lanjut">
             Read the docs to discover what to do next:
           </Section>
-          <LearnMoreLinks />
         </View>
       </ScrollView>
     </SafeAreaView>
