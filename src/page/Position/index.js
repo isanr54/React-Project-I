@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import cart from './cart.png';
+import cart from '../../assets/image/cart.png';
 
-const PositionReact = () => {
+const Position = () => {
     return(
         <View style={styles.wrapper}>
             <View style={styles.cartWrapper}>
@@ -53,4 +53,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default PositionReact;
+export default Position;
